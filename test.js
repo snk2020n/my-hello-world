@@ -1,5 +1,5 @@
-function test() {
-	console.log("Hello World!!!")
+function test(a, b) {
+	console.log("Hello World!!!" + a + b)
 }
 
-test();
+test('zhuwawa', 'xiaozhuwawa');
